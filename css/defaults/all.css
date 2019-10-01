@@ -1,0 +1,13 @@
+html {
+  @apply font-display text-dark;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --link-color: #3182ce;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--link-color);
+}

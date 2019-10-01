@@ -1,0 +1,48 @@
+
+@font-face {
+  font-family: 'MuseoSansRounded';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../../static/fonts/39F5F8_0_0-eot.eot');
+  src: url('../../static/fonts/39F5F8_0_0-eot.eot?#iefix') format('embedded-opentype'),
+    url('../../static/fonts/39F5F8_0_0-woff2.woff2') format('woff2'),
+    url('../../static/fonts/39F5F8_0_0-woff.woff') format('woff'),
+    url('../../static/fonts/39F5F8_0_0-ttf.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoSansRounded';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../../static/fonts/39F5F8_1_0-eot.eot');
+  src: url('../../static/fonts/39F5F8_1_0-eot.eot?#iefix') format('embedded-opentype'),
+    url('../../static/fonts/39F5F8_1_0-woff2.woff2') format('woff2'),
+    url('../../static/fonts/39F5F8_1_0-woff.woff') format('woff'),
+    url('../../static/fonts/39F5F8_1_0-ttf.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoSansRounded';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../../static/fonts/39F5F8_2_0-eot.eot');
+  src: url('../../static/fonts/39F5F8_2_0-eot.eot?#iefix') format('embedded-opentype'),
+    url('../../static/fonts/39F5F8_2_0-woff2.woff2') format('woff2'),
+    url('../../static/fonts/39F5F8_2_0-woff.woff') format('woff'),
+    url('../../static/fonts/39F5F8_2_0-ttf.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoSansRounded';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../../static/fonts/39F5F8_3_0-eot.eot');
+  src: url('../../static/fonts/39F5F8_3_0-eot.eot?#iefix') format('embedded-opentype'),
+    url('../../static/fonts/39F5F8_3_0-woff2.woff2') format('woff2'),
+    url('../../static/fonts/39F5F8_3_0-woff.woff') format('woff'),
+    url('../../static/fonts/39F5F8_3_0-ttf.ttf') format('truetype');
+  font-display: swap;
+}
