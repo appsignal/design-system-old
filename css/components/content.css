@@ -15,9 +15,9 @@
 }
 
 .c-content p {
-  @apply mb-4 text-gray-700;
+  @apply mb-4 text-gray-500;
 }
 
 .c-content ul {
-  @apply mb-4 list-disc list-outside ml-4 text-gray-700;
+  @apply mb-4 list-disc list-outside ml-4 text-gray-500;
 }

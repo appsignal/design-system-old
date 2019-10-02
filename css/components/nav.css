@@ -1,0 +1,19 @@
+.c-nav-link {
+  @apply leading-relaxed block no-underline text-gray-500;
+}
+
+.c-nav-link:hover {
+  @apply text-blue underline;
+}
+
+.c-subnav {
+  @apply pl-4 border-l border-gray-300 my-2;
+}
+
+.c-cat-link {
+  @apply leading-loose block no-underline text-gray-500 px-2 -ml-2 rounded-sm;
+}
+
+.c-cat-link:hover {
+  @apply text-blue-500 bg-blue-100;
+}

@@ -1,0 +1,22 @@
+.c-code {
+  @apply rounded bg-gray-200 text-gray-500 font-mono text-sm p-4;
+}
+
+.c-code--white {
+  @apply bg-white text-gray-500;
+}
+
+.c-code--dark {
+  @apply bg-gray-600 text-white;
+}
+
+.c-inline-code {
+  @apply rounded-sm bg-gray-200 text-gray-500 font-mono py-1 px-2 inline-block font-normal;
+  font-size: 0.9em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+
+.c-inline-code-dark {
+  @apply bg-gray-600 text-white;
+}

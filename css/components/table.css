@@ -1,0 +1,22 @@
+.c-thead {
+  @apply align-middle text-left;
+}
+
+.c-th {
+  @apply border-b px-4 pb-3 text-gray text-sm bg-white font-mono text-left font-normal text-sm;
+}
+
+.c-td {
+  @apply border-b px-4 py-4 align-middle leading-snug text-sm
+}
+
+.c-td-actions {
+  @apply h-full relative whitespace-no-wrap bg-white hidden p-4 pl-12;
+  width: min-content;
+  transform: translateX(calc(-100% - 3px));
+  background: linear-gradient(to left, #fff calc(100% - 2rem), rgba(255,255,255,0))
+}
+
+tr:hover .c-td-actions {
+  @apply block;
+}

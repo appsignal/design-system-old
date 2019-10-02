@@ -1,0 +1,4 @@
+.c-pill {
+  @apply rounded-sm bg-blue-100 text-blue-400 px-2 py-1 leading-none font-mono inline-block font-normal;
+  font-size: 0.75em;
+}

@@ -1,0 +1,3 @@
+.c-pagebar {
+  @apply bg-blue text-blue-100 px-4 py-3;
+}

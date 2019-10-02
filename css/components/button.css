@@ -1,13 +1,49 @@
-.btn {
-  @apply px-6 py-2 bg-green-500 text-white font-bold rounded inline-block no-underline border border-green-500;
+.c-button {
+  @apply px-4 py-1 bg-green text-white rounded inline-block no-underline border border-green shadow align-middle;
+  transition: all 0.15s ease-out;
+}
+.c-button:hover {
+  @apply bg-green-500 border-green-500 ;
 }
 
-
-.btn-gray {
-  @apply border border-gray-400 bg-white text-gray-600;
+.c-button--white,
+.c-button--white:hover {
+  @apply border-white bg-white text-gray-600;
 }
 
+.c-button--white:hover {
+  @apply underline;
+}
 
-.btn-large {
-  @apply text-xl py-4 px-8;
+.c-button--gray {
+  @apply border-gray-300 bg-white text-gray-400;
+}
+
+.c-button--gray:hover {
+  @apply border-gray-400 bg-white text-gray-500;
+}
+
+.c-button--red {
+  @apply border-red-300 bg-white text-red-300;
+}
+
+.c-button--red:hover {
+  @apply border-red-300 bg-red-100 text-red-300;
+}
+
+.c-button--link,
+.c-button--link:hover {
+  @apply border-transparent bg-transparent text-blue-300 shadow-none px-0;
+}
+
+.c-button--link:hover {
+  @apply underline;
+}
+
+.c-button--sm {
+  @apply text-sm;
+}
+
+.c-button--lg {
+  @apply text-lg py-2;
 }

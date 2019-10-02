@@ -1,0 +1,7 @@
+.c-bar {
+  @apply h-2 rounded-full bg-blue-100;
+}
+
+.c-bar-label {
+  @apply leading-none mb-3 block;
+}

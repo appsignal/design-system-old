@@ -1,0 +1,11 @@
+.c-box {
+  @apply shadow-md rounded mb-4 bg-white;
+}
+
+.c-box__header {
+  @apply border-b px-4 py-3 font-bold;
+}
+
+.c-box__footer {
+  @apply border-t px-4 py-3 text-gray-400 text-sm;
+}

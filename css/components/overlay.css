@@ -1,0 +1,4 @@
+.c-overlay {
+  @apply bg-gray-500 fixed w-full h-full flex flex-col items-center justify-center p-16 z-10 left-0 top-0;
+  background: rgba(26, 32, 44, 0.8)
+}
