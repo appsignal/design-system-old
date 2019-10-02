@@ -17,6 +17,6 @@
   padding-right: 0.4em;
 }
 
-.c-inline-code-dark {
+.c-inline-code--dark {
   @apply bg-gray-600 text-white;
 }
