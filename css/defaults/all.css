@@ -5,5 +5,5 @@ html {
 
 a {
   text-decoration: underline;
-  color: theme("colors.blue.400")
+  /* color: theme("colors.blue.400") */
 }
