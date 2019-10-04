@@ -3,11 +3,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-:root {
-  --link-color: #3182ce;
-}
-
 a {
   text-decoration: underline;
-  color: var(--link-color);
+  color: theme("colors.blue.400")
 }
