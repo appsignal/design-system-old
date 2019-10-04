@@ -6,14 +6,14 @@
   @apply block w-4 h-4 bg-white rounded-full;
   content: '';
 }
-.c-toggle-sm {
+.c-toggle--sm {
   @apply rounded-full bg-gray-300 inline-flex w-6 h-3 border-2 border-gray-300;
   box-sizing: content-box;
 }
-.c-toggle-sm:before {
+.c-toggle--sm:before {
   @apply block w-3 h-3 bg-white rounded-full;
 }
-.c-toggle-on {
+.c-toggle--on {
   @apply justify-end shadow-inner bg-green border-green;
 }
 .c-toggle input {
