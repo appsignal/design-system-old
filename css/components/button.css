@@ -1,5 +1,5 @@
 .c-button {
-  @apply px-4 py-1 bg-green text-white rounded inline-block no-underline border border-green shadow align-middle;
+  @apply px-4 py-1 bg-green text-white rounded inline-block no-underline border border-green shadow align-middle border-solid;
   transition: all 0.15s ease-out;
 }
 .c-button:hover {
