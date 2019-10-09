@@ -22,7 +22,7 @@ module.exports = {
       'transparent': 'transparent',
       gray: {
         'default': '#8896B3',
-        '100': '#EDF1F9',
+        '100': '#f4f6f9',
         '200': '#DDE3F0',
         '300': '#C5CEE0',
         '400': '#8896B3',
