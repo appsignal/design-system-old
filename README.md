@@ -1,19 +1,28 @@
 # Design System
 
-## Requirements
+## Install
 
-In order to properly use this in your projects you need to install a couple of
-dependencies:
+1. Add the design systen to your app: `$ yarn add appsignal/design-system#master`
+2. Add the CSS bundle to your Webpack entry point: `import "@appsignal/design-system"`
+3. Done
 
-```sh
-  $ yarn install tailwindcss tailwindcss-grid --dev
-```
+## Development
 
-## Make fonts work
+When you're working on the design system it is usually nice to see the changes
+that you made right away without having to push to GitHub first. You can do so
+with [`yarn link`](https://yarnpkg.com/lang/en/docs/cli/link/).
 
-We currently have no way to properly load fonts in a relative manner. Because of
-this you would need to copy `css/defaults/fonts.css` over to the project this
-module is used in, and the paths of the fonts should be updated to reflect the
-actual path to the design system repo.
+1. Clone the design system repo to your machine and cd to the folder
+2. Run `yarn install`
+3. Run `yarn link`
 
-..todo create proper readme..
+The package is now available to be linked in other applications:
+
+1. Go to the project where you want to link this package in
+2. Run `yarn link @appsignal/design-system`
+
+When you make changes to the design system, you need to build a new version so
+the projects that consume this package can actually use this.
+
+While developing, the easiest way to build a new version is by running `yarn build:watch`.
+If you only want to build, but not watch for changes you can use `yarn build`.
