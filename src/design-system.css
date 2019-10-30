@@ -2,7 +2,7 @@
 @import "tailwindcss/components";
 
 @import "./defaults/all";
-@import  "./fonts";
+@import "./defaults/fonts";
 
 @import "./components/avatar";
 @import "./components/bar";
