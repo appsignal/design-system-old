@@ -7,7 +7,7 @@
 }
 
 .c-subnav {
-  @apply pl-4 border-l border-gray-300 my-2;
+  @apply pl-4 border-l border-gray-200 my-2;
 }
 
 .c-cat-link {

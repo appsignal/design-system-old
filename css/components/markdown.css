@@ -1,0 +1,53 @@
+.c-markdown a {
+  @apply no-underline;
+}
+
+.c-markdown p a,
+.c-markdown ul a,
+.c-markdown ol a {
+  @apply text-blue-400 underline;
+}
+
+.c-markdown h1 {
+  @apply text-4xl font-bold leading-tight mb-4;
+}
+
+.c-markdown h2 {
+  @apply text-2xl font-bold leading-tight mb-2 mt-8;
+}
+
+.c-markdown h3 {
+  @apply text-xl font-bold leading-tight mb-2 mt-8;
+}
+
+.c-markdown h4 {
+  @apply text-lg font-bold leading-tight mb-2 mt-8;
+}
+
+.c-markdown h5 {
+  @apply font-bold leading-tight mb-2 mt-8;
+}
+
+.c-markdown pre {
+  @apply mb-2 font-mono;
+}
+
+.c-markdown h1 + p {
+  @apply mb-8 text-gray-500 text-lg border-b pb-8;
+}
+
+.c-markdown p {
+  @apply mb-4 text-gray-500;
+}
+
+.c-markdown ul {
+  @apply list-disc list-inside mb-4 ml-4 text-gray-500;
+}
+
+.c-markdown ol {
+  @apply list-decimal list-inside mb-4 ml-4 text-gray-500;
+}
+
+.c-markdown hr {
+  @apply my-12
+}

@@ -29,6 +29,34 @@
   grid-area: content;
 }
 
+/*  Grid for docs */
+.grid-docs {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav content"
+    "nav footer"
+  ;
+  grid-template-rows: 4rem 1fr auto;
+  grid-template-columns: 15rem 1fr;
+  height: 100vh;
+  width: 100vw;
+}
+
+.grid-docs-header {
+  grid-area: header;
+}
+
+.grid-docs-nav {
+  grid-area: nav
+}
+.grid-docs-content {
+  grid-area: content;
+}
+.grid-docs-footer {
+  grid-area: footer;
+}
+
 @responsive {
   .grid {
     display: grid;
