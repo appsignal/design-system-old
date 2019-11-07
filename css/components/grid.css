@@ -1,34 +1,3 @@
-.grid-app {
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "switcher title"
-    "nav content"
-  ;
-  grid-template-rows: 40px 60px 1fr;
-  grid-template-columns: 240px 1fr;
-  height: 100vh;
-  width: 100vw;
-}
-
-.grid-app-header {
-  grid-area: header;
-}
-
-.grid-app-switcher {
-  grid-area: switcher
-}
-.grid-app-title {
-  grid-area: title;
-}
-.grid-app-nav {
-  grid-area: nav;
-}
-
-.grid-app-content {
-  grid-area: content;
-}
-
 /*  Grid for docs */
 .grid-docs {
   display: grid;
