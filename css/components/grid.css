@@ -29,7 +29,7 @@
 @responsive {
   .grid {
     display: grid;
-    grid-gap: 24px;
+    grid-gap: 1.5rem;
     grid-template-columns: repeat(12, 1fr);
   }
 
@@ -330,6 +330,9 @@
   }
 
   .gap-lg {
-    grid-gap: var(--spacing-7);
+    grid-gap: 2rem;
+  }
+  .gap-none {
+    grid-gap: 0;
   }
 }

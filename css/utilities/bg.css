@@ -1,0 +1,4 @@
+.bg-blur {
+  background: rgba(10,21,48,0.8);
+  backdrop-filter: blur(5px);
+}
