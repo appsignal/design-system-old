@@ -1,3 +1,15 @@
 .bg-gradient {
   background-image: linear-gradient(#f4f6f9,#f4f6f900);
 }
+
+.bg-gradient-hr {
+  background-image:
+    linear-gradient(
+      to right,
+      red,
+      red 33%,
+      green 33%,
+      green 85%,
+      orange 85%
+    );
+}
