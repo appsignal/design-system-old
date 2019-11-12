@@ -1,5 +1,5 @@
 .c-box {
-  @apply shadow-md rounded mb-4 bg-white;
+  @apply shadow rounded mb-6 bg-white;
 }
 
 .c-box__header {

@@ -1,38 +1,35 @@
-.grid-app {
+/*  Grid for docs */
+.grid-docs {
   display: grid;
   grid-template-areas:
     "header header"
-    "switcher title"
     "nav content"
+    "nav footer"
   ;
-  grid-template-rows: 40px 60px 1fr;
-  grid-template-columns: 240px 1fr;
+  grid-template-rows: 4rem 1fr auto;
+  grid-template-columns: 15rem 1fr;
   height: 100vh;
   width: 100vw;
 }
 
-.grid-app-header {
+.grid-docs-header {
   grid-area: header;
 }
 
-.grid-app-switcher {
-  grid-area: switcher
+.grid-docs-nav {
+  grid-area: nav
 }
-.grid-app-title {
-  grid-area: title;
-}
-.grid-app-nav {
-  grid-area: nav;
-}
-
-.grid-app-content {
+.grid-docs-content {
   grid-area: content;
+}
+.grid-docs-footer {
+  grid-area: footer;
 }
 
 @responsive {
   .grid {
     display: grid;
-    grid-gap: 24px;
+    grid-gap: 1.5rem;
     grid-template-columns: repeat(12, 1fr);
   }
 
@@ -333,6 +330,9 @@
   }
 
   .gap-lg {
-    grid-gap: var(--spacing-7);
+    grid-gap: 2rem;
+  }
+  .gap-none {
+    grid-gap: 0;
   }
 }

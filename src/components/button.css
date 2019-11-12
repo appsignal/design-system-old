@@ -1,45 +1,49 @@
+/* Default green button */
 .c-button {
-  @apply px-4 py-1 bg-green text-white rounded inline-block no-underline border border-green shadow align-middle border-solid;
-  transition: all 0.15s ease-out;
+  @apply px-4 py-1 bg-green text-white rounded inline-flex items-center no-underline border border-green align-middle border-solid;
+  transition: background 0.15s ease-out, border 0.15s ease-out, color 0.15s ease-out;
 }
 .c-button:hover {
   @apply bg-green-500 border-green-500 ;
 }
 
-.c-button--white,
+/* White button (secondary) for darker backgrounds */
+.c-button--white {
+  @apply border-white bg-white text-gray-500;
+}
 .c-button--white:hover {
-  @apply border-white bg-white text-gray-600;
+  @apply border-gray-200 bg-gray-200 text-gray-600;
 }
 
-.c-button--white:hover {
-  @apply underline;
-}
-
+/* Gray button (secondary) for white backgrounds */
 .c-button--gray {
-  @apply border-gray-300 bg-white text-gray-400;
+  @apply border-gray-100 bg-gray-100 text-gray-500;
 }
 
 .c-button--gray:hover {
-  @apply border-gray-400 bg-white text-gray-500;
+  @apply border-gray-200 bg-gray-200 text-gray-600;
 }
 
+/* Red button for dangerous actions */
 .c-button--red {
   @apply border-red-300 bg-white text-red-300;
 }
 
 .c-button--red:hover {
-  @apply border-red-300 bg-red-100 text-red-300;
+  @apply border-red-300 bg-red-100 text-red-400;
 }
 
+/* Link buttons that display a secondary action as a link */
 .c-button--link,
 .c-button--link:hover {
-  @apply border-transparent bg-transparent text-blue-300 shadow-none px-0;
+  @apply border-transparent bg-transparent text-blue-400 shadow-none px-0;
 }
 
 .c-button--link:hover {
   @apply underline;
 }
 
+/* Size variations */
 .c-button--sm {
   @apply text-sm;
 }
