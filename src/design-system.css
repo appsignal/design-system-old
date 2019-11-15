@@ -5,7 +5,6 @@
 @import "./defaults/fonts";
 
 @import "./components/avatar";
-@import "./components/background";
 @import "./components/bar";
 @import "./components/box";
 @import "./components/button";
