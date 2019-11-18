@@ -713,39 +713,6 @@ a {
   display: inline-block;
 }
 
-.bg-blur {
-  background: rgba(10,21,48,0.8);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-}
-
-.bg-gradient {
-  background-image: -webkit-gradient(linear,left top, left bottom,from(#f4f6f9),to(#f4f6f900));
-  background-image: linear-gradient(#f4f6f9,#f4f6f900);
-}
-
-.bg-gradient-hr {
-  background-image:
-    -webkit-gradient(
-      linear,
-      left top, right top,
-      from(red),
-      color-stop(33%, red),
-      color-stop(33%, green),
-      color-stop(85%, green),
-      color-stop(85%, orange)
-    );
-  background-image:
-    linear-gradient(
-      to right,
-      red,
-      red 33%,
-      green 33%,
-      green 85%,
-      orange 85%
-    );
-}
-
 .c-bar {
   height: 0.5rem;
   border-radius: 9999px;
