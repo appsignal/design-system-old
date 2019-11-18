@@ -4,7 +4,8 @@
 
 1. Add the design systen to your app: `$ yarn add appsignal/design-system#master`
 2. Add the CSS bundle to your Webpack entry point: `import "@appsignal/design-system"`
-3. Done
+3. Ensure you have `publicPath: "/"` setup in our `output` for webpack. See: https://webpack.js.org/guides/public-path/
+4. Done
 
 ## Development
 
