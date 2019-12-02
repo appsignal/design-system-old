@@ -2,7 +2,7 @@
 
 ## Install
 
-1. Add the design systen to your app: `$ yarn add appsignal/design-system#master`
+1. Add the design systen to your app: `$ yarn add appsignal/design-system`
 2. Add the CSS bundle to your Webpack entry point: `import "@appsignal/design-system"`
 3. Ensure you have `publicPath: "/"` setup in our `output` for webpack. See: https://webpack.js.org/guides/public-path/
 4. Done
@@ -32,4 +32,6 @@ When you make a change, please make sure this gets added to the [Changelog](http
 
 ## Release a new version
 
-[Todo - Better document how we release new version]
+1. Create a new tag from `master`: `$ git tag -a VERSION`
+2. Push tag to GitHub: `$ git push origin VERSION`
+3. Create a new package for NPM: `$ npm publish`
