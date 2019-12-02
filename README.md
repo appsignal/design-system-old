@@ -27,3 +27,9 @@ the projects that consume this package can actually use this.
 
 While developing, the easiest way to build a new version is by running `yarn build:watch`.
 If you only want to build, but not watch for changes you can use `yarn build`.
+
+When you make a change, please make sure this gets added to the [Changelog](https://github.com/appsignal/design-system/blob/master/CHANGELOG).
+
+## Release a new version
+
+[Todo - Better document how we release new version]
