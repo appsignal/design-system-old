@@ -1734,7 +1734,7 @@ a {
   color: #88061B;
 }
 
-.c-message--note {
+.c-message--yellow {
   background-color: #FFF3E0;
   color: #BC750C;
 }
@@ -1744,7 +1744,7 @@ a {
   color: #0C744C;
 }
 
-.c-message--dark {
+.c-message--gray {
   background-color: #0A1530;
   color: #fff;
 }

@@ -10,7 +10,7 @@
   @apply bg-red-100 text-red-500;
 }
 
-.c-message--note {
+.c-message--yellow {
   @apply bg-yellow-100 text-yellow-500;
 }
 
@@ -18,7 +18,7 @@
   @apply bg-green-100 text-green-500;
 }
 
-.c-message--dark {
+.c-message--gray {
   @apply bg-gray-600 text-white;
 }
 
