@@ -719,12 +719,6 @@ a {
   background-color: #D1E1F8;
 }
 
-.c-bar-label {
-  line-height: 1;
-  margin-bottom: 0.75rem;
-  display: block;
-}
-
 .c-box {
   box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   border-radius: 0.25rem;
