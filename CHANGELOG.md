@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - `.c-message--note` and `.c-message--dark` have been renamed
 
+### Removed
+- `c-bar-label` has been removed
+
 ## [0.0.1-alpha.0] - 2019-12-02
 
 ### Added
