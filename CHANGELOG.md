@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 - `c-bar-label` has been removed
+- `c-content` has been removed in favour of `c-markdown`
 
 ## [0.0.1-alpha.0] - 2019-12-02
 
