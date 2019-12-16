@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### Fixed
+- Removed `content` file from main CSS (Was preventing a proper build)
+
 ## [0.0.1-alpha.1] - 2019-12-16
 
 ### Changed

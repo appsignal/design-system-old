@@ -1189,46 +1189,6 @@ a {
   color: #fff;
 }
 
-.c-content h1 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1;
-  margin-bottom: 1rem;
-}
-
-.c-content h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.25;
-  margin-bottom: 1rem;
-}
-
-.c-content h3 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.25;
-  margin-bottom: 0.5rem;
-}
-
-.c-content h4 {
-  font-weight: 700;
-  line-height: 1.25;
-  margin-bottom: 0.5rem;
-}
-
-.c-content p {
-  margin-bottom: 1rem;
-  color: #46567C;
-}
-
-.c-content ul {
-  margin-bottom: 1rem;
-  list-style-type: disc;
-  list-style-position: outside;
-  margin-left: 1rem;
-  color: #46567C;
-}
-
 .c-filter {
   border-radius: 0.25rem;
   background-color: #fff;
