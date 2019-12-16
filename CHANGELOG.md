@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [0.0.1-alpha.2] - 2019-12-16
+
 ### Fixed
 - Removed `content` file from main CSS (Was preventing a proper build)
 
@@ -23,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[unreleased]: https://github.com/appsignal/design-system/compare/v0.0.1-alpha.1...HEAD
+[unreleased]: https://github.com/appsignal/design-system/compare/v0.0.1-alpha.2...HEAD
+[0.0.1-alpha.2]: https://github.com/appsignal/design-system/releases/tag/v0.0.1-alpha.2
 [0.0.1-alpha.1]: https://github.com/appsignal/design-system/releases/tag/v0.0.1-alpha.1
 [0.0.1-alpha.0]: https://github.com/appsignal/design-system/releases/tag/v0.0.1-alpha.0
