@@ -1,0 +1,26 @@
+on: [push]
+name: Check buildability
+
+jobs:
+  build:
+    name: Run build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+
+      - name: Cache node dependencies
+        id: node-cache
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{runner.os}}-${{hashFiles('yarn.lock')}}
+
+      - uses: borales/actions-yarn@v2.0.0
+        if: steps.node-cache.outputs.cache-hit != 'true'
+        with:
+          cmd: install
+
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: build
