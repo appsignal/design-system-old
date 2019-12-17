@@ -9,6 +9,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@master
 
+      - name: Store current dist sha
+        run: DIST_HASH=${{hashFiles('dist/design-system.css')}};echo "::set-env name=distHash::$DIST_HASH"
+
       - name: Cache node dependencies
         id: node-cache
         uses: actions/cache@v1
@@ -24,3 +27,6 @@ jobs:
       - uses: borales/actions-yarn@v2.0.0
         with:
           cmd: build
+
+      - name: Compare commited build with current build
+        run: ${{ env.distHash == hashFiles('dist/design-system.css')}}
