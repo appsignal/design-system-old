@@ -1,5 +1,5 @@
 on: [push]
-name: Check buildability
+name: Check build
 
 jobs:
   build:
@@ -29,4 +29,4 @@ jobs:
           cmd: build
 
       - name: Compare commited build with current build
-        run: ${{ env.distHash == hashFiles('dist/design-system.css')}}
+        run: ${{env.distHash == hashFiles('dist/design-system.css')}}
