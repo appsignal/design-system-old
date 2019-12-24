@@ -23,6 +23,6 @@
 @import "./components/table";
 @import "./components/toggle-text";
 @import "./components/toggle";
-@import "./components/type";
+@import "./components/typography";
 
 @import "tailwindcss/utilities";
