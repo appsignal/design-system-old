@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### Changed
+- Changed `c-toggle-text` to properly indicate BEM style (Childs have been renamed)
+
 ## [0.0.1-alpha.2] - 2019-12-16
 
 ### Fixed

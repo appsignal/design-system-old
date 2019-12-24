@@ -7,15 +7,25 @@
   content: '';
 }
 .c-toggle--sm {
-  @apply rounded-full bg-gray-300 inline-flex w-6 h-3 border-2 border-gray-300;
-  box-sizing: content-box;
+  @apply w-6 h-3;
 }
 .c-toggle--sm:before {
-  @apply block w-3 h-3 bg-white rounded-full;
+  @apply w-3 h-3;
 }
 .c-toggle--on {
   @apply justify-end shadow-inner bg-green border-green;
 }
 .c-toggle input {
   @apply hidden;
+}
+
+.c-toggle-text {
+  @apply rounded-full inline-flex bg-gray-400 text-gray-300 border-2 border-gray-400;
+  box-sizing: content-box;
+}
+.c-toggle-text__child {
+  @apply px-4 py-1 rounded-full;
+}
+.c-toggle-text__child--active {
+  @apply bg-white text-gray-500;
 }
