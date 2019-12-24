@@ -1854,29 +1854,6 @@ tr:hover .c-td-actions {
   display: block;
 }
 
-.c-toggle-text {
-  border-radius: 9999px;
-  display: inline-flex;
-  background-color: #8896B3;
-  color: #C5CEE0;
-  border-width: 2px;
-  border-color: #8896B3;
-  box-sizing: content-box;
-}
-
-.c-toggle--child {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  border-radius: 9999px;
-}
-
-.c-toggle--active {
-  background-color: #fff;
-  color: #46567C;
-}
-
 .c-toggle {
   border-radius: 9999px;
   background-color: #C5CEE0;
@@ -1899,22 +1876,13 @@ tr:hover .c-td-actions {
 }
 
 .c-toggle--sm {
-  border-radius: 9999px;
-  background-color: #C5CEE0;
-  display: inline-flex;
   width: 1.5rem;
   height: 0.75rem;
-  border-width: 2px;
-  border-color: #C5CEE0;
-  box-sizing: content-box;
 }
 
 .c-toggle--sm:before {
-  display: block;
   width: 0.75rem;
   height: 0.75rem;
-  background-color: #fff;
-  border-radius: 9999px;
 }
 
 .c-toggle--on {
@@ -1926,6 +1894,29 @@ tr:hover .c-td-actions {
 
 .c-toggle input {
   display: none;
+}
+
+.c-toggle-text {
+  border-radius: 9999px;
+  display: inline-flex;
+  background-color: #8896B3;
+  color: #C5CEE0;
+  border-width: 2px;
+  border-color: #8896B3;
+  box-sizing: content-box;
+}
+
+.c-toggle-text__child {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 9999px;
+}
+
+.c-toggle-text__child--active {
+  background-color: #fff;
+  color: #46567C;
 }
 
 .c-h1 {
