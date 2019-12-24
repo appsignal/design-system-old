@@ -22,6 +22,6 @@
 @import "./components/screenshot";
 @import "./components/table";
 @import "./components/toggle";
-@import "./components/type";
+@import "./components/typography";
 
 @import "tailwindcss/utilities";
