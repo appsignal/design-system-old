@@ -761,6 +761,8 @@ a {
   border-color: #29A575;
   vertical-align: middle;
   border-style: solid;
+  font-weight: 700;
+  box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
   -webkit-transition: background 0.15s ease-out, border 0.15s ease-out, color 0.15s ease-out;
   transition: background 0.15s ease-out, border 0.15s ease-out, color 0.15s ease-out;
 }
@@ -773,29 +775,17 @@ a {
 /* White button (secondary) for darker backgrounds */
 
 .c-button--white {
-  border-color: #fff;
   background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #DDE3F0;
   color: #46567C;
 }
 
 .c-button--white:hover {
-  border-color: #DDE3F0;
-  background-color: #DDE3F0;
-  color: #0A1530;
-}
-
-/* Gray button (secondary) for white backgrounds */
-
-.c-button--gray {
-  border-color: #f4f6f9;
-  background-color: #f4f6f9;
-  color: #46567C;
-}
-
-.c-button--gray:hover {
-  border-color: #DDE3F0;
-  background-color: #DDE3F0;
-  color: #0A1530;
+  background-color: #E7F4EF;
+  color: #29A575;
+  border-color: #9FE7CC;
 }
 
 /* Red button for dangerous actions */
@@ -832,6 +822,16 @@ a {
 
 .c-button--sm {
   font-size: 0.875rem;
+}
+
+/* Size variations */
+
+.c-button--xs {
+  font-size: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .c-button--lg {
@@ -9854,6 +9854,13 @@ tr:hover .c-td-actions {
   left: 0;
 }
 
+.inset-100 {
+  top: 100%;
+  right: 100%;
+  bottom: 100%;
+  left: 100%;
+}
+
 .inset-auto {
   top: auto;
   right: auto;
@@ -9876,6 +9883,16 @@ tr:hover .c-td-actions {
 .inset-x-0 {
   right: 0;
   left: 0;
+}
+
+.inset-y-100 {
+  top: 100%;
+  bottom: 100%;
+}
+
+.inset-x-100 {
+  right: 100%;
+  left: 100%;
 }
 
 .inset-y-auto {
@@ -9912,6 +9929,22 @@ tr:hover .c-td-actions {
 
 .left-0 {
   left: 0;
+}
+
+.top-100 {
+  top: 100%;
+}
+
+.right-100 {
+  right: 100%;
+}
+
+.bottom-100 {
+  bottom: 100%;
+}
+
+.left-100 {
+  left: 100%;
 }
 
 .top-auto {
@@ -9966,6 +9999,10 @@ tr:hover .c-td-actions {
   box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
 }
 
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+}
+
 .shadow-md {
   box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
 }
@@ -10006,6 +10043,10 @@ tr:hover .c-td-actions {
   box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
 }
 
+.hover\:shadow-sm:hover {
+  box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+}
+
 .hover\:shadow-md:hover {
   box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
 }
@@ -10044,6 +10085,10 @@ tr:hover .c-td-actions {
 
 .focus\:shadow:focus {
   box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
+}
+
+.focus\:shadow-sm:focus {
+  box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
 }
 
 .focus\:shadow-md:focus {
@@ -20016,6 +20061,13 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
+  .sm\:inset-100 {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
   .sm\:inset-auto {
     top: auto;
     right: auto;
@@ -20038,6 +20090,16 @@ tr:hover .c-td-actions {
   .sm\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .sm\:inset-y-100 {
+    top: 100%;
+    bottom: 100%;
+  }
+
+  .sm\:inset-x-100 {
+    right: 100%;
+    left: 100%;
   }
 
   .sm\:inset-y-auto {
@@ -20074,6 +20136,22 @@ tr:hover .c-td-actions {
 
   .sm\:left-0 {
     left: 0;
+  }
+
+  .sm\:top-100 {
+    top: 100%;
+  }
+
+  .sm\:right-100 {
+    right: 100%;
+  }
+
+  .sm\:bottom-100 {
+    bottom: 100%;
+  }
+
+  .sm\:left-100 {
+    left: 100%;
   }
 
   .sm\:top-auto {
@@ -20128,6 +20206,10 @@ tr:hover .c-td-actions {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   }
 
+  .sm\:shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+  }
+
   .sm\:shadow-md {
     box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
   }
@@ -20168,6 +20250,10 @@ tr:hover .c-td-actions {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   }
 
+  .sm\:hover\:shadow-sm:hover {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+  }
+
   .sm\:hover\:shadow-md:hover {
     box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
   }
@@ -20206,6 +20292,10 @@ tr:hover .c-td-actions {
 
   .sm\:focus\:shadow:focus {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
+  }
+
+  .sm\:focus\:shadow-sm:focus {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
   }
 
   .sm\:focus\:shadow-md:focus {
@@ -30179,6 +30269,13 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
+  .md\:inset-100 {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
   .md\:inset-auto {
     top: auto;
     right: auto;
@@ -30201,6 +30298,16 @@ tr:hover .c-td-actions {
   .md\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .md\:inset-y-100 {
+    top: 100%;
+    bottom: 100%;
+  }
+
+  .md\:inset-x-100 {
+    right: 100%;
+    left: 100%;
   }
 
   .md\:inset-y-auto {
@@ -30237,6 +30344,22 @@ tr:hover .c-td-actions {
 
   .md\:left-0 {
     left: 0;
+  }
+
+  .md\:top-100 {
+    top: 100%;
+  }
+
+  .md\:right-100 {
+    right: 100%;
+  }
+
+  .md\:bottom-100 {
+    bottom: 100%;
+  }
+
+  .md\:left-100 {
+    left: 100%;
   }
 
   .md\:top-auto {
@@ -30291,6 +30414,10 @@ tr:hover .c-td-actions {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   }
 
+  .md\:shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+  }
+
   .md\:shadow-md {
     box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
   }
@@ -30331,6 +30458,10 @@ tr:hover .c-td-actions {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   }
 
+  .md\:hover\:shadow-sm:hover {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+  }
+
   .md\:hover\:shadow-md:hover {
     box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
   }
@@ -30369,6 +30500,10 @@ tr:hover .c-td-actions {
 
   .md\:focus\:shadow:focus {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
+  }
+
+  .md\:focus\:shadow-sm:focus {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
   }
 
   .md\:focus\:shadow-md:focus {
@@ -40342,6 +40477,13 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
+  .lg\:inset-100 {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
   .lg\:inset-auto {
     top: auto;
     right: auto;
@@ -40364,6 +40506,16 @@ tr:hover .c-td-actions {
   .lg\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .lg\:inset-y-100 {
+    top: 100%;
+    bottom: 100%;
+  }
+
+  .lg\:inset-x-100 {
+    right: 100%;
+    left: 100%;
   }
 
   .lg\:inset-y-auto {
@@ -40400,6 +40552,22 @@ tr:hover .c-td-actions {
 
   .lg\:left-0 {
     left: 0;
+  }
+
+  .lg\:top-100 {
+    top: 100%;
+  }
+
+  .lg\:right-100 {
+    right: 100%;
+  }
+
+  .lg\:bottom-100 {
+    bottom: 100%;
+  }
+
+  .lg\:left-100 {
+    left: 100%;
   }
 
   .lg\:top-auto {
@@ -40454,6 +40622,10 @@ tr:hover .c-td-actions {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   }
 
+  .lg\:shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+  }
+
   .lg\:shadow-md {
     box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
   }
@@ -40494,6 +40666,10 @@ tr:hover .c-td-actions {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   }
 
+  .lg\:hover\:shadow-sm:hover {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+  }
+
   .lg\:hover\:shadow-md:hover {
     box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
   }
@@ -40532,6 +40708,10 @@ tr:hover .c-td-actions {
 
   .lg\:focus\:shadow:focus {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
+  }
+
+  .lg\:focus\:shadow-sm:focus {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
   }
 
   .lg\:focus\:shadow-md:focus {
@@ -50505,6 +50685,13 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
+  .xl\:inset-100 {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
   .xl\:inset-auto {
     top: auto;
     right: auto;
@@ -50527,6 +50714,16 @@ tr:hover .c-td-actions {
   .xl\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .xl\:inset-y-100 {
+    top: 100%;
+    bottom: 100%;
+  }
+
+  .xl\:inset-x-100 {
+    right: 100%;
+    left: 100%;
   }
 
   .xl\:inset-y-auto {
@@ -50563,6 +50760,22 @@ tr:hover .c-td-actions {
 
   .xl\:left-0 {
     left: 0;
+  }
+
+  .xl\:top-100 {
+    top: 100%;
+  }
+
+  .xl\:right-100 {
+    right: 100%;
+  }
+
+  .xl\:bottom-100 {
+    bottom: 100%;
+  }
+
+  .xl\:left-100 {
+    left: 100%;
   }
 
   .xl\:top-auto {
@@ -50617,6 +50830,10 @@ tr:hover .c-td-actions {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   }
 
+  .xl\:shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+  }
+
   .xl\:shadow-md {
     box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
   }
@@ -50657,6 +50874,10 @@ tr:hover .c-td-actions {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
   }
 
+  .xl\:hover\:shadow-sm:hover {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
+  }
+
   .xl\:hover\:shadow-md:hover {
     box-shadow:  0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06);
   }
@@ -50695,6 +50916,10 @@ tr:hover .c-td-actions {
 
   .xl\:focus\:shadow:focus {
     box-shadow: 0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06);
+  }
+
+  .xl\:focus\:shadow-sm:focus {
+    box-shadow: 0 1px 2px 0 rgba(10,21,48, .10);
   }
 
   .xl\:focus\:shadow-md:focus {

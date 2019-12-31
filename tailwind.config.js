@@ -26,6 +26,7 @@ module.exports = {
     },
     boxShadow: {
       "default": "0 1px 3px 0 rgba(10,21,48, .1), 0 1px 2px 0 rgba(10,21,48, .06)",
+      "sm": "0 1px 2px 0 rgba(10,21,48, .10)",
       "md": " 0 4px 6px -1px rgba(10,21,48, .1), 0 2px 4px -1px rgba(10,21,48, .06)",
       "lg": " 0 10px 15px -3px rgba(10,21,48, .1), 0 4px 6px -2px rgba(10,21,48, .05)",
       "xl": " 0 20px 25px -5px rgba(10,21,48, .1), 0 10px 10px -5px rgba(10,21,48, .04)",
@@ -141,7 +142,8 @@ module.exports = {
         default: "#E4E7F0"
       },
       inset: {
-        "-16": "-4rem"
+        "-16": "-4rem",
+        "100": "100%"
       },
       width: {
         "max-content": "max-content",
