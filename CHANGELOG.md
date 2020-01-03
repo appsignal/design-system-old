@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### Added
+- Popover positioning to show components relative to a parent.
+- XS variation of the buttons
+
+### Changed
+- Consolidated the white and gray buttons into one button
+- Filters are now made from (chained) butons
+
+### Removed
+- Explicit filters
+
+## [0.0.1-alpha.2] - 2019-12-16
+
 ### Changed
 - Changed `c-toggle-text` to properly indicate BEM style (Childs have been renamed)
 
