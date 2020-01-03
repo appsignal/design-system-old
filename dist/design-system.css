@@ -805,22 +805,6 @@ a {
   color: #C8223D;
 }
 
-/* Link buttons that display a secondary action as a link */
-
-.c-button--link,
-.c-button--link:hover {
-  border-color: transparent;
-  background-color: transparent;
-  color: #336ABC;
-  box-shadow: none;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.c-button--link:hover {
-  text-decoration: underline;
-}
-
 /* Size variations */
 
 .c-button--xs {
@@ -839,6 +823,22 @@ a {
   font-size: 1.125rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+/* Link buttons that display a secondary action as a link */
+
+.c-button--link,
+.c-button--link:hover {
+  border-color: transparent;
+  background-color: transparent;
+  color: #336ABC;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c-button--link:hover {
+  text-decoration: underline;
 }
 
 /*

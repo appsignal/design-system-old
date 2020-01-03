@@ -26,16 +26,6 @@
   @apply border-red-300 bg-red-100 text-red-400;
 }
 
-/* Link buttons that display a secondary action as a link */
-.c-button--link,
-.c-button--link:hover {
-  @apply border-transparent bg-transparent text-blue-400 shadow-none px-0;
-}
-
-.c-button--link:hover {
-  @apply underline;
-}
-
 /* Size variations */
 .c-button--xs {
   @apply text-xs px-2 py-1;
@@ -47,4 +37,14 @@
 
 .c-button--lg {
   @apply text-lg py-2;
+}
+
+/* Link buttons that display a secondary action as a link */
+.c-button--link,
+.c-button--link:hover {
+  @apply border-transparent bg-transparent text-blue-400 shadow-none px-0;
+}
+
+.c-button--link:hover {
+  @apply underline;
 }
