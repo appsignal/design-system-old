@@ -13,8 +13,8 @@
 }
 
 .c-button--white:hover,
-.c-button--white--active {
-  @apply bg-blue-100 text-blue-500 border-blue-200;
+.c-button--white-active {
+  @apply bg-green-100 text-green-500 border-green-200 z-10;
 }
 
 /* Red button for dangerous actions */
@@ -37,13 +37,12 @@
 }
 
 /* Size variations */
-.c-button--sm {
-  @apply text-sm;
-}
-
-/* Size variations */
 .c-button--xs {
   @apply text-xs px-2 py-1;
+}
+
+.c-button--sm {
+  @apply text-sm;
 }
 
 .c-button--lg {

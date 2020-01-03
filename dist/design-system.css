@@ -784,10 +784,11 @@ a {
 }
 
 .c-button--white:hover,
-.c-button--white--active {
-  background-color: #D1E1F8;
-  color: #1F4B8F;
-  border-color: #96B9EE;
+.c-button--white-active {
+  background-color: #E7F4EF;
+  color: #0C744C;
+  border-color: #9FE7CC;
+  z-index: 10;
 }
 
 /* Red button for dangerous actions */
@@ -822,18 +823,16 @@ a {
 
 /* Size variations */
 
-.c-button--sm {
-  font-size: 0.875rem;
-}
-
-/* Size variations */
-
 .c-button--xs {
   font-size: 0.75rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.c-button--sm {
+  font-size: 0.875rem;
 }
 
 .c-button--lg {
@@ -1189,40 +1188,6 @@ a {
 .c-inline-code--dark {
   background-color: #0A1530;
   color: #fff;
-}
-
-.c-filter {
-  border-radius: 0.25rem;
-  background-color: #fff;
-  display: inline-block;
-  font-size: 0.875rem;
-  color: #46567C;
-  border-width: 1px;
-  border-right-width: 0;
-}
-
-.c-filter__option {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  cursor: pointer;
-  border-right-width: 1px;
-  display: inline-block;
-}
-
-.c-filter__option:hover {
-  color: #336ABC
-}
-
-.c-filter__option--active {
-  color: #336ABC;
-  background-color: #D1E1F8;
-  border-color: #96B9EE;
-  border-width: 1px;
-  margin: -1px;
-  z-index: 10;
-  border-radius: 0.25rem;
 }
 
 .c-icon {
