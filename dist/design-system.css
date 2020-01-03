@@ -9480,6 +9480,13 @@ tr:hover .c-td-actions {
   left: 0;
 }
 
+.inset-50 {
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
 .inset-100 {
   top: 100%;
   right: 100%;
@@ -9509,6 +9516,16 @@ tr:hover .c-td-actions {
 .inset-x-0 {
   right: 0;
   left: 0;
+}
+
+.inset-y-50 {
+  top: 50%;
+  bottom: 50%;
+}
+
+.inset-x-50 {
+  right: 50%;
+  left: 50%;
 }
 
 .inset-y-100 {
@@ -9555,6 +9572,22 @@ tr:hover .c-td-actions {
 
 .left-0 {
   left: 0;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.right-50 {
+  right: 50%;
+}
+
+.bottom-50 {
+  bottom: 50%;
+}
+
+.left-50 {
+  left: 50%;
 }
 
 .top-100 {
@@ -11484,6 +11517,16 @@ tr:hover .c-td-actions {
 
 .row-end-13 {
   grid-row-end: 13;
+}
+
+.-translate-y-50 {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.-translate-x-50 {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 @media (min-width: 640px) {
@@ -19341,6 +19384,13 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
+  .sm\:inset-50 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .sm\:inset-100 {
     top: 100%;
     right: 100%;
@@ -19370,6 +19420,16 @@ tr:hover .c-td-actions {
   .sm\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .sm\:inset-y-50 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .sm\:inset-x-50 {
+    right: 50%;
+    left: 50%;
   }
 
   .sm\:inset-y-100 {
@@ -19416,6 +19476,22 @@ tr:hover .c-td-actions {
 
   .sm\:left-0 {
     left: 0;
+  }
+
+  .sm\:top-50 {
+    top: 50%;
+  }
+
+  .sm\:right-50 {
+    right: 50%;
+  }
+
+  .sm\:bottom-50 {
+    bottom: 50%;
+  }
+
+  .sm\:left-50 {
+    left: 50%;
   }
 
   .sm\:top-100 {
@@ -29203,6 +29279,13 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
+  .md\:inset-50 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .md\:inset-100 {
     top: 100%;
     right: 100%;
@@ -29232,6 +29315,16 @@ tr:hover .c-td-actions {
   .md\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .md\:inset-y-50 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .md\:inset-x-50 {
+    right: 50%;
+    left: 50%;
   }
 
   .md\:inset-y-100 {
@@ -29278,6 +29371,22 @@ tr:hover .c-td-actions {
 
   .md\:left-0 {
     left: 0;
+  }
+
+  .md\:top-50 {
+    top: 50%;
+  }
+
+  .md\:right-50 {
+    right: 50%;
+  }
+
+  .md\:bottom-50 {
+    bottom: 50%;
+  }
+
+  .md\:left-50 {
+    left: 50%;
   }
 
   .md\:top-100 {
@@ -39065,6 +39174,13 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
+  .lg\:inset-50 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .lg\:inset-100 {
     top: 100%;
     right: 100%;
@@ -39094,6 +39210,16 @@ tr:hover .c-td-actions {
   .lg\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .lg\:inset-y-50 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .lg\:inset-x-50 {
+    right: 50%;
+    left: 50%;
   }
 
   .lg\:inset-y-100 {
@@ -39140,6 +39266,22 @@ tr:hover .c-td-actions {
 
   .lg\:left-0 {
     left: 0;
+  }
+
+  .lg\:top-50 {
+    top: 50%;
+  }
+
+  .lg\:right-50 {
+    right: 50%;
+  }
+
+  .lg\:bottom-50 {
+    bottom: 50%;
+  }
+
+  .lg\:left-50 {
+    left: 50%;
   }
 
   .lg\:top-100 {
@@ -48927,6 +49069,13 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
+  .xl\:inset-50 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .xl\:inset-100 {
     top: 100%;
     right: 100%;
@@ -48956,6 +49105,16 @@ tr:hover .c-td-actions {
   .xl\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .xl\:inset-y-50 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .xl\:inset-x-50 {
+    right: 50%;
+    left: 50%;
   }
 
   .xl\:inset-y-100 {
@@ -49002,6 +49161,22 @@ tr:hover .c-td-actions {
 
   .xl\:left-0 {
     left: 0;
+  }
+
+  .xl\:top-50 {
+    top: 50%;
+  }
+
+  .xl\:right-50 {
+    right: 50%;
+  }
+
+  .xl\:bottom-50 {
+    bottom: 50%;
+  }
+
+  .xl\:left-50 {
+    left: 50%;
   }
 
   .xl\:top-100 {
