@@ -140,8 +140,8 @@ module.exports = {
       },
       inset: {
         "-16": "-4rem",
-        "100": "100%",
-        "50": "50%",
+        "full": "100%",
+        "half": "50%",
       },
       width: {
         "max-content": "max-content",
