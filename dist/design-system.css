@@ -11529,6 +11529,27 @@ tr:hover .c-td-actions {
           transform: translateX(-50%);
 }
 
+.grid--sample {
+  display: grid;
+  grid-template-columns: 1fr 16rem;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "title    side"
+    "content  side";
+}
+
+.area--title {
+  grid-area: title
+}
+
+.area--content {
+  grid-area: content
+}
+
+.area--side {
+  grid-area: side
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

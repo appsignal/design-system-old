@@ -25,3 +25,4 @@
 @import "tailwindcss/utilities";
 
 @import "./utilities/translate";
+@import "./utilities/grid";
