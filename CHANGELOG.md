@@ -8,14 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Popover positioning to show components relative to a parent.
-- XS variation of the buttons
+- XS variation of the buttons: `.c-button--xs`
 
 ### Changed
 - Consolidated the white and gray buttons into one button
 - Filters are now made from (chained) butons
 
 ### Removed
-- Explicit filters
+- `c-button--gray` is removed in favour of `c-button--white`
+- The family of `c-filter` has been removed. No alternative created.
 
 ## [0.0.1-alpha.2] - 2019-12-16
 
