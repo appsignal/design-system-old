@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 - `c-button--gray` is removed in favour of `c-button--white`
 - The family of `c-filter` has been removed. No alternative created.
+- Explicit grid related classes have been removed
 
 ## [0.0.1-alpha.2] - 2019-12-16
 

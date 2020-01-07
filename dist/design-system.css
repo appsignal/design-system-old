@@ -827,8 +827,7 @@ a {
 
 /* Link buttons that display a secondary action as a link */
 
-.c-button--link,
-.c-button--link:hover {
+.c-button--link {
   border-color: transparent;
   background-color: transparent;
   color: #336ABC;
@@ -9480,20 +9479,6 @@ tr:hover .c-td-actions {
   left: 0;
 }
 
-.inset-50 {
-  top: 50%;
-  right: 50%;
-  bottom: 50%;
-  left: 50%;
-}
-
-.inset-100 {
-  top: 100%;
-  right: 100%;
-  bottom: 100%;
-  left: 100%;
-}
-
 .inset-auto {
   top: auto;
   right: auto;
@@ -9508,6 +9493,20 @@ tr:hover .c-td-actions {
   left: -4rem;
 }
 
+.inset-full {
+  top: 100%;
+  right: 100%;
+  bottom: 100%;
+  left: 100%;
+}
+
+.inset-half {
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
 .inset-y-0 {
   top: 0;
   bottom: 0;
@@ -9516,26 +9515,6 @@ tr:hover .c-td-actions {
 .inset-x-0 {
   right: 0;
   left: 0;
-}
-
-.inset-y-50 {
-  top: 50%;
-  bottom: 50%;
-}
-
-.inset-x-50 {
-  right: 50%;
-  left: 50%;
-}
-
-.inset-y-100 {
-  top: 100%;
-  bottom: 100%;
-}
-
-.inset-x-100 {
-  right: 100%;
-  left: 100%;
 }
 
 .inset-y-auto {
@@ -9558,6 +9537,26 @@ tr:hover .c-td-actions {
   left: -4rem;
 }
 
+.inset-y-full {
+  top: 100%;
+  bottom: 100%;
+}
+
+.inset-x-full {
+  right: 100%;
+  left: 100%;
+}
+
+.inset-y-half {
+  top: 50%;
+  bottom: 50%;
+}
+
+.inset-x-half {
+  right: 50%;
+  left: 50%;
+}
+
 .top-0 {
   top: 0;
 }
@@ -9572,38 +9571,6 @@ tr:hover .c-td-actions {
 
 .left-0 {
   left: 0;
-}
-
-.top-50 {
-  top: 50%;
-}
-
-.right-50 {
-  right: 50%;
-}
-
-.bottom-50 {
-  bottom: 50%;
-}
-
-.left-50 {
-  left: 50%;
-}
-
-.top-100 {
-  top: 100%;
-}
-
-.right-100 {
-  right: 100%;
-}
-
-.bottom-100 {
-  bottom: 100%;
-}
-
-.left-100 {
-  left: 100%;
 }
 
 .top-auto {
@@ -9636,6 +9603,38 @@ tr:hover .c-td-actions {
 
 .-left-16 {
   left: -4rem;
+}
+
+.top-full {
+  top: 100%;
+}
+
+.right-full {
+  right: 100%;
+}
+
+.bottom-full {
+  bottom: 100%;
+}
+
+.left-full {
+  left: 100%;
+}
+
+.top-half {
+  top: 50%;
+}
+
+.right-half {
+  right: 50%;
+}
+
+.bottom-half {
+  bottom: 50%;
+}
+
+.left-half {
+  left: 50%;
 }
 
 .resize-none {
@@ -11519,12 +11518,12 @@ tr:hover .c-td-actions {
   grid-row-end: 13;
 }
 
-.-translate-y-50 {
+.-translate-y-half {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
-.-translate-x-50 {
+.-translate-x-half {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -19384,20 +19383,6 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
-  .sm\:inset-50 {
-    top: 50%;
-    right: 50%;
-    bottom: 50%;
-    left: 50%;
-  }
-
-  .sm\:inset-100 {
-    top: 100%;
-    right: 100%;
-    bottom: 100%;
-    left: 100%;
-  }
-
   .sm\:inset-auto {
     top: auto;
     right: auto;
@@ -19412,6 +19397,20 @@ tr:hover .c-td-actions {
     left: -4rem;
   }
 
+  .sm\:inset-full {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
+  .sm\:inset-half {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .sm\:inset-y-0 {
     top: 0;
     bottom: 0;
@@ -19420,26 +19419,6 @@ tr:hover .c-td-actions {
   .sm\:inset-x-0 {
     right: 0;
     left: 0;
-  }
-
-  .sm\:inset-y-50 {
-    top: 50%;
-    bottom: 50%;
-  }
-
-  .sm\:inset-x-50 {
-    right: 50%;
-    left: 50%;
-  }
-
-  .sm\:inset-y-100 {
-    top: 100%;
-    bottom: 100%;
-  }
-
-  .sm\:inset-x-100 {
-    right: 100%;
-    left: 100%;
   }
 
   .sm\:inset-y-auto {
@@ -19462,6 +19441,26 @@ tr:hover .c-td-actions {
     left: -4rem;
   }
 
+  .sm\:inset-y-full {
+    top: 100%;
+    bottom: 100%;
+  }
+
+  .sm\:inset-x-full {
+    right: 100%;
+    left: 100%;
+  }
+
+  .sm\:inset-y-half {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .sm\:inset-x-half {
+    right: 50%;
+    left: 50%;
+  }
+
   .sm\:top-0 {
     top: 0;
   }
@@ -19476,38 +19475,6 @@ tr:hover .c-td-actions {
 
   .sm\:left-0 {
     left: 0;
-  }
-
-  .sm\:top-50 {
-    top: 50%;
-  }
-
-  .sm\:right-50 {
-    right: 50%;
-  }
-
-  .sm\:bottom-50 {
-    bottom: 50%;
-  }
-
-  .sm\:left-50 {
-    left: 50%;
-  }
-
-  .sm\:top-100 {
-    top: 100%;
-  }
-
-  .sm\:right-100 {
-    right: 100%;
-  }
-
-  .sm\:bottom-100 {
-    bottom: 100%;
-  }
-
-  .sm\:left-100 {
-    left: 100%;
   }
 
   .sm\:top-auto {
@@ -19540,6 +19507,38 @@ tr:hover .c-td-actions {
 
   .sm\:-left-16 {
     left: -4rem;
+  }
+
+  .sm\:top-full {
+    top: 100%;
+  }
+
+  .sm\:right-full {
+    right: 100%;
+  }
+
+  .sm\:bottom-full {
+    bottom: 100%;
+  }
+
+  .sm\:left-full {
+    left: 100%;
+  }
+
+  .sm\:top-half {
+    top: 50%;
+  }
+
+  .sm\:right-half {
+    right: 50%;
+  }
+
+  .sm\:bottom-half {
+    bottom: 50%;
+  }
+
+  .sm\:left-half {
+    left: 50%;
   }
 
   .sm\:resize-none {
@@ -29279,20 +29278,6 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
-  .md\:inset-50 {
-    top: 50%;
-    right: 50%;
-    bottom: 50%;
-    left: 50%;
-  }
-
-  .md\:inset-100 {
-    top: 100%;
-    right: 100%;
-    bottom: 100%;
-    left: 100%;
-  }
-
   .md\:inset-auto {
     top: auto;
     right: auto;
@@ -29307,6 +29292,20 @@ tr:hover .c-td-actions {
     left: -4rem;
   }
 
+  .md\:inset-full {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
+  .md\:inset-half {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .md\:inset-y-0 {
     top: 0;
     bottom: 0;
@@ -29315,26 +29314,6 @@ tr:hover .c-td-actions {
   .md\:inset-x-0 {
     right: 0;
     left: 0;
-  }
-
-  .md\:inset-y-50 {
-    top: 50%;
-    bottom: 50%;
-  }
-
-  .md\:inset-x-50 {
-    right: 50%;
-    left: 50%;
-  }
-
-  .md\:inset-y-100 {
-    top: 100%;
-    bottom: 100%;
-  }
-
-  .md\:inset-x-100 {
-    right: 100%;
-    left: 100%;
   }
 
   .md\:inset-y-auto {
@@ -29357,6 +29336,26 @@ tr:hover .c-td-actions {
     left: -4rem;
   }
 
+  .md\:inset-y-full {
+    top: 100%;
+    bottom: 100%;
+  }
+
+  .md\:inset-x-full {
+    right: 100%;
+    left: 100%;
+  }
+
+  .md\:inset-y-half {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .md\:inset-x-half {
+    right: 50%;
+    left: 50%;
+  }
+
   .md\:top-0 {
     top: 0;
   }
@@ -29371,38 +29370,6 @@ tr:hover .c-td-actions {
 
   .md\:left-0 {
     left: 0;
-  }
-
-  .md\:top-50 {
-    top: 50%;
-  }
-
-  .md\:right-50 {
-    right: 50%;
-  }
-
-  .md\:bottom-50 {
-    bottom: 50%;
-  }
-
-  .md\:left-50 {
-    left: 50%;
-  }
-
-  .md\:top-100 {
-    top: 100%;
-  }
-
-  .md\:right-100 {
-    right: 100%;
-  }
-
-  .md\:bottom-100 {
-    bottom: 100%;
-  }
-
-  .md\:left-100 {
-    left: 100%;
   }
 
   .md\:top-auto {
@@ -29435,6 +29402,38 @@ tr:hover .c-td-actions {
 
   .md\:-left-16 {
     left: -4rem;
+  }
+
+  .md\:top-full {
+    top: 100%;
+  }
+
+  .md\:right-full {
+    right: 100%;
+  }
+
+  .md\:bottom-full {
+    bottom: 100%;
+  }
+
+  .md\:left-full {
+    left: 100%;
+  }
+
+  .md\:top-half {
+    top: 50%;
+  }
+
+  .md\:right-half {
+    right: 50%;
+  }
+
+  .md\:bottom-half {
+    bottom: 50%;
+  }
+
+  .md\:left-half {
+    left: 50%;
   }
 
   .md\:resize-none {
@@ -39174,20 +39173,6 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
-  .lg\:inset-50 {
-    top: 50%;
-    right: 50%;
-    bottom: 50%;
-    left: 50%;
-  }
-
-  .lg\:inset-100 {
-    top: 100%;
-    right: 100%;
-    bottom: 100%;
-    left: 100%;
-  }
-
   .lg\:inset-auto {
     top: auto;
     right: auto;
@@ -39202,6 +39187,20 @@ tr:hover .c-td-actions {
     left: -4rem;
   }
 
+  .lg\:inset-full {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
+  .lg\:inset-half {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .lg\:inset-y-0 {
     top: 0;
     bottom: 0;
@@ -39210,26 +39209,6 @@ tr:hover .c-td-actions {
   .lg\:inset-x-0 {
     right: 0;
     left: 0;
-  }
-
-  .lg\:inset-y-50 {
-    top: 50%;
-    bottom: 50%;
-  }
-
-  .lg\:inset-x-50 {
-    right: 50%;
-    left: 50%;
-  }
-
-  .lg\:inset-y-100 {
-    top: 100%;
-    bottom: 100%;
-  }
-
-  .lg\:inset-x-100 {
-    right: 100%;
-    left: 100%;
   }
 
   .lg\:inset-y-auto {
@@ -39252,6 +39231,26 @@ tr:hover .c-td-actions {
     left: -4rem;
   }
 
+  .lg\:inset-y-full {
+    top: 100%;
+    bottom: 100%;
+  }
+
+  .lg\:inset-x-full {
+    right: 100%;
+    left: 100%;
+  }
+
+  .lg\:inset-y-half {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .lg\:inset-x-half {
+    right: 50%;
+    left: 50%;
+  }
+
   .lg\:top-0 {
     top: 0;
   }
@@ -39266,38 +39265,6 @@ tr:hover .c-td-actions {
 
   .lg\:left-0 {
     left: 0;
-  }
-
-  .lg\:top-50 {
-    top: 50%;
-  }
-
-  .lg\:right-50 {
-    right: 50%;
-  }
-
-  .lg\:bottom-50 {
-    bottom: 50%;
-  }
-
-  .lg\:left-50 {
-    left: 50%;
-  }
-
-  .lg\:top-100 {
-    top: 100%;
-  }
-
-  .lg\:right-100 {
-    right: 100%;
-  }
-
-  .lg\:bottom-100 {
-    bottom: 100%;
-  }
-
-  .lg\:left-100 {
-    left: 100%;
   }
 
   .lg\:top-auto {
@@ -39330,6 +39297,38 @@ tr:hover .c-td-actions {
 
   .lg\:-left-16 {
     left: -4rem;
+  }
+
+  .lg\:top-full {
+    top: 100%;
+  }
+
+  .lg\:right-full {
+    right: 100%;
+  }
+
+  .lg\:bottom-full {
+    bottom: 100%;
+  }
+
+  .lg\:left-full {
+    left: 100%;
+  }
+
+  .lg\:top-half {
+    top: 50%;
+  }
+
+  .lg\:right-half {
+    right: 50%;
+  }
+
+  .lg\:bottom-half {
+    bottom: 50%;
+  }
+
+  .lg\:left-half {
+    left: 50%;
   }
 
   .lg\:resize-none {
@@ -49069,20 +49068,6 @@ tr:hover .c-td-actions {
     left: 0;
   }
 
-  .xl\:inset-50 {
-    top: 50%;
-    right: 50%;
-    bottom: 50%;
-    left: 50%;
-  }
-
-  .xl\:inset-100 {
-    top: 100%;
-    right: 100%;
-    bottom: 100%;
-    left: 100%;
-  }
-
   .xl\:inset-auto {
     top: auto;
     right: auto;
@@ -49097,6 +49082,20 @@ tr:hover .c-td-actions {
     left: -4rem;
   }
 
+  .xl\:inset-full {
+    top: 100%;
+    right: 100%;
+    bottom: 100%;
+    left: 100%;
+  }
+
+  .xl\:inset-half {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .xl\:inset-y-0 {
     top: 0;
     bottom: 0;
@@ -49105,26 +49104,6 @@ tr:hover .c-td-actions {
   .xl\:inset-x-0 {
     right: 0;
     left: 0;
-  }
-
-  .xl\:inset-y-50 {
-    top: 50%;
-    bottom: 50%;
-  }
-
-  .xl\:inset-x-50 {
-    right: 50%;
-    left: 50%;
-  }
-
-  .xl\:inset-y-100 {
-    top: 100%;
-    bottom: 100%;
-  }
-
-  .xl\:inset-x-100 {
-    right: 100%;
-    left: 100%;
   }
 
   .xl\:inset-y-auto {
@@ -49147,6 +49126,26 @@ tr:hover .c-td-actions {
     left: -4rem;
   }
 
+  .xl\:inset-y-full {
+    top: 100%;
+    bottom: 100%;
+  }
+
+  .xl\:inset-x-full {
+    right: 100%;
+    left: 100%;
+  }
+
+  .xl\:inset-y-half {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .xl\:inset-x-half {
+    right: 50%;
+    left: 50%;
+  }
+
   .xl\:top-0 {
     top: 0;
   }
@@ -49161,38 +49160,6 @@ tr:hover .c-td-actions {
 
   .xl\:left-0 {
     left: 0;
-  }
-
-  .xl\:top-50 {
-    top: 50%;
-  }
-
-  .xl\:right-50 {
-    right: 50%;
-  }
-
-  .xl\:bottom-50 {
-    bottom: 50%;
-  }
-
-  .xl\:left-50 {
-    left: 50%;
-  }
-
-  .xl\:top-100 {
-    top: 100%;
-  }
-
-  .xl\:right-100 {
-    right: 100%;
-  }
-
-  .xl\:bottom-100 {
-    bottom: 100%;
-  }
-
-  .xl\:left-100 {
-    left: 100%;
   }
 
   .xl\:top-auto {
@@ -49225,6 +49192,38 @@ tr:hover .c-td-actions {
 
   .xl\:-left-16 {
     left: -4rem;
+  }
+
+  .xl\:top-full {
+    top: 100%;
+  }
+
+  .xl\:right-full {
+    right: 100%;
+  }
+
+  .xl\:bottom-full {
+    bottom: 100%;
+  }
+
+  .xl\:left-full {
+    left: 100%;
+  }
+
+  .xl\:top-half {
+    top: 50%;
+  }
+
+  .xl\:right-half {
+    right: 50%;
+  }
+
+  .xl\:bottom-half {
+    bottom: 50%;
+  }
+
+  .xl\:left-half {
+    left: 50%;
   }
 
   .xl\:resize-none {
