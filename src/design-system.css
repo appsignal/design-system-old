@@ -10,8 +10,6 @@
 @import "./components/button";
 @import "./components/code-highlight";
 @import "./components/code";
-@import "./components/filter";
-@import "./components/grid";
 @import "./components/icon";
 @import "./components/markdown";
 @import "./components/message";
@@ -25,3 +23,5 @@
 @import "./components/typography";
 
 @import "tailwindcss/utilities";
+
+@import "./utilities/translate";
