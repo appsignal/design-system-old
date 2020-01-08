@@ -827,7 +827,8 @@ a {
 
 /* Link buttons that display a secondary action as a link */
 
-.c-button--link {
+.c-button--link,
+.c-button--link:hover {
   border-color: transparent;
   background-color: transparent;
   color: #336ABC;

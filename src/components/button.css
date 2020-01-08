@@ -40,7 +40,8 @@
 }
 
 /* Link buttons that display a secondary action as a link */
-.c-button--link {
+.c-button--link,
+.c-button--link:hover {
   @apply border-transparent bg-transparent text-blue-400 shadow-none px-0;
 }
 
